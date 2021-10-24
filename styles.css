@@ -68,8 +68,16 @@ a:hover.navbar {
   width: 50%;
 }
 
+.left-25 {
+  width: 20%;
+}
+
 .middle {
   width: 25%;
+}
+
+.middle-50 {
+  width: 15%;
 }
 
 .right {
@@ -268,4 +276,30 @@ select {
 
 .active {
   color: #ED348D;
+}
+
+.cart-image {
+  position: relative;
+  left: 40px;
+}
+
+.cart-item {
+  font-size: 20px;
+}
+
+.delete-item{
+  font-size: 12px;
+  font-weight: 900;
+  color: #ED348D;
+}
+
+#checkout-button{
+  position: relative;
+  left: 375px;
+  margin-bottom: 40px;
+}
+
+#subtotal {
+  position: relative;
+  left: 495px;
 }
