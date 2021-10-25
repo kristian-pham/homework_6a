@@ -4,6 +4,7 @@
   <title>Bun Bun | Original</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+  <script src="main.js"></script>
 </head>
 <body>
 
@@ -27,6 +28,7 @@
   </div>
   <div class="row">
     <div class="column left">
+      <!-- Photo courtesy of Pexels, Polina Tankilevitch -->
       <img src="https://lh3.googleusercontent.com/pw/AM-JKLUTozn9q451bhSz5uiuUMm_xwbOgssl4d2wKiOQBThlIC4-eIXWOjNNhKPlgVIcMoGKH2gJ4JzeHbDrdivncrUZDHGzIOrjzdc7BZ_XkgwxEy8aobeMhmlqGecq-1HuIYV7clYNCHzJeBN1V4iw9vQ=w701-h886-no?authuser=0" alt="Plate of cinnamon buns">
     </div>
   </br></br></br></br></br></br>
@@ -42,18 +44,18 @@
       </div>
       <p class="detail">Our original cinnamon bun made with enriched dough</br> and a top-secret blend of warm spices.</p>
       <p class="detail"><strong>Quantity</strong></p>
-        <div class="row">
+        <div class="row quantity">
           <div class="column total-button">
-            <button types="button" class="pink-stroke-button">1</button> &emsp; &emsp;
+            <button types="button" class="count selected" id="one" onclick="changePrice()">1</button> &emsp; &emsp;
           </div>
           <div class="column">
-            <button types="button" class="stroke-button">3</button> &emsp; &emsp;
+            <button types="button" class="count" id="three" onclick="changePrice()">3</button> &emsp; &emsp;
           </div>
           <div class="column">
-            <button types="button" class="stroke-button">6</button> &emsp; &emsp;
+            <button types="button" class="count" id="six" onclick="changePrice()">6</button> &emsp; &emsp;
           </div>
           <div class="column">
-            <button types="button" class="stroke-button">12</button> &emsp; &emsp;
+            <button types="button" class="count" id="twelve" onclick="changePrice()">12</button> &emsp; &emsp;
           </div>
         </div>
       <p class="detail"><strong>Glaze</strong></p>
@@ -67,7 +69,7 @@
         </div>
       <p class="detail"><strong>Total</strong></p>
       <div class="total-button">
-      <button type="button" class="pink-stroke-button">$6.99</button><button type="button" class="pink-button">Add to cart</button>
+      <button type="button" class="pink-stroke-button" id="tot-price">$6.99</button><button type="button" class="pink-button" onclick="itemAdded()">Add to cart</button>
       </div>
     </div>
   </div>

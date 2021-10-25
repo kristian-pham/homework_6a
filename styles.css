@@ -108,6 +108,7 @@ a:hover.navbar {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .pink-button {
@@ -120,6 +121,7 @@ a:hover.navbar {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .pink-stroke-button {
@@ -134,7 +136,7 @@ a:hover.navbar {
   font-weight: bold;
 }
 
-.stroke-button {
+/*.stroke-button {
   background-color: white;
   border: 2px solid #000000;
   color: #00000;
@@ -143,7 +145,7 @@ a:hover.navbar {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
+} */
 
 .img-btn {
   background-color: #FFF625;
@@ -302,4 +304,41 @@ select {
 #subtotal {
   position: relative;
   left: 495px;
+}
+
+button.count {
+  background-color: white;
+  border: 2px solid #000000;
+  color: #00000;
+  padding: 12px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.count.selected {
+  background-color: #ED348D;
+  border: 3px solid #ED348D;
+  color: white;
+  padding: 12px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.count.selected:after {
+  background-color: #ED348D;
+  border: 3px solid #ED348D;
+  color: white;
+  padding: 12px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
 }
